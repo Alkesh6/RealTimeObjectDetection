@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <title>My Vision</title>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <div>My Vision</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <a class = "web" href="{{ url_for('run_script_webcam') }}">Detect Object using Webcam</a>
+        <form  action="{{ url_for('run_script_phone')}}" method="POST">
+            <div class="form-group">
+                <h3>Enter IP address Cam Server:<br></h3>
+                <input type="text" name="ip"><br>
+                <input type="submit" value="Detect Object">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

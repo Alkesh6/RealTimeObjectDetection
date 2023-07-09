@@ -1,0 +1,52 @@
+    /* CSS Reset */
+body {
+    background-attachment:fixed; 
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-image: linear-gradient(#A100FFFF,#119CFDFF);
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.header{
+    color:white;
+    font-size: 60px;
+    padding-top:80px;
+    text-decoration:underline;
+}
+
+form{
+    display: inline-block;
+}
+
+.container{
+    display: inline-block;
+    align-items: center;
+    color:white;
+    border: 10px solid black;
+    margin: 40px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    font-size: 20px;
+}
+
+.container a{
+    font-size: 25px;
+    color:white;
+}
+
+.form-group input{
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 3px solid black;
+    margin: -5px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
